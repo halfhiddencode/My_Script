@@ -1,0 +1,8 @@
+[Unit]
+Description=mounting other partion
+
+[Service]
+ExecStart= /usr/sbin/AutoMount.sh
+
+[Install]
+WantedBy=multi-user.target
